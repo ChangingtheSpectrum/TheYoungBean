@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1 class="text-center">Welcome to The Young Bean!</h1>
+
+{% load static %}
+<img src="{% static 'sitepages/youngbeanlogo.jpg' %}" class="img-responsive center-block"/>
+
+<h2 class="text-center">Hours of Operation</p>
+
+<h3 class="text-center">Monday - Thursday: </h3>
+<p class="text-center">6:30 AM - 4:00 PM</p>
+<hr/>
+
+<h3 class="text-center">Friday:</h3>
+<p class="text-center">6:30 AM - 8:00 PM</p>
+<hr/>
+
+<h3 class="text-center">Saturday:</h3>
+<p class="text-center">8:00 AM - 4:00 PM</p>
+<hr/>
+
+<h3 class="text-center">Sunday:</h3>
+<p class="text-center">Closed</p>
+
+{% endblock %}
